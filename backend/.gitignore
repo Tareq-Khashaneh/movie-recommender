@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# generated data: rebuilt from db.csv + TMDB sync
+data/movies.db
+data/movies.db-journal
+data/movies.db-wal
+data/movies.db-shm
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
